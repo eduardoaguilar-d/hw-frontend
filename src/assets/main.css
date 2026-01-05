@@ -1,8 +1,17 @@
-@import './base.css';
+/* Tailwind CSS v4 */
+@import "tailwindcss";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Flowbite Theme - Fonts must be imported first */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "flowbite/src/themes/default";
+
+/* Flowbite Plugin */
+@plugin "flowbite/plugin";
+
+/* Flowbite Source */
+@source "../node_modules/flowbite";
+
+@import './base.css';
 
 #app {
   max-width: 1280px;
