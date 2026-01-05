@@ -112,7 +112,7 @@ const handleLogin = async () => {
             <button
               type="submit"
               :disabled="loading"
-              class="w-full text-white bg-primary hover:bg-opacity-90 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-3 text-center dark:bg-primary dark:hover:bg-opacity-90 dark:focus:ring-primary-800 disabled:opacity-50 transition-colors duration-200"
+              class="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-3 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 disabled:opacity-50 transition-colors duration-200"
             >
               <span v-if="loading">Iniciando sesión...</span>
               <span v-else>Iniciar sesión</span>
