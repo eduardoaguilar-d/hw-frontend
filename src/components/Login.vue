@@ -38,7 +38,7 @@ const handleLogin = async () => {
 
 <template>
   <section
-    class="bg-bg-main dark:bg-bg-main min-h-screen flex items-center justify-center"
+    class="bg-bg-main dark:bg-bg-main w-full h-screen flex items-center justify-center fixed inset-0"
   >
     <div
       class="flex flex-col items-center justify-center px-6 py-8 mx-auto w-full md:w-auto"

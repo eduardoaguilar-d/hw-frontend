@@ -17,6 +17,19 @@
   --color-primary-800: #1e40af;
   --color-primary-900: #1e3a8a;
   --color-primary-950: #172554;
+  --color-bg-main: #525C71;
+  --color-secondary: #9D7C51;
+}
+
+/* Override base.css background to allow section backgrounds to show */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: transparent !important;
+}
+
+body {
+  background: transparent !important;
 }
 
 @import "flowbite/src/themes/default";
