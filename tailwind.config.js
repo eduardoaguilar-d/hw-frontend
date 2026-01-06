@@ -1,9 +1,9 @@
+/** @type {import('tailwindcss').Config} */
 export default {
   darkMode: 'class',
   content: [
     "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
-    "./node_modules/flowbite/**/*.js"
+    "./src/**/*.{vue,js,ts,jsx,tsx}"
   ],
   theme: {
     extend: {
@@ -20,48 +20,12 @@ export default {
           "800":"#1e40af",
           "900":"#1e3a8a",
           "950":"#172554",
-          DEFAULT: "#2563eb" // Added to ensure bg-primary still works
+          DEFAULT: "#2563eb"
         },
-        'bg-main': '#525C71', // Preserving this
-        secondary: '#9D7C51', // Preserving this
+        'bg-main': '#525C71',
+        secondary: '#9D7C51',
       }
     },
-    fontFamily: {
-      'body': [
-        'Inter', 
-        'ui-sans-serif', 
-        'system-ui', 
-        '-apple-system', 
-        'system-ui', 
-        'Segoe UI', 
-        'Roboto', 
-        'Helvetica Neue', 
-        'Arial', 
-        'Noto Sans', 
-        'sans-serif', 
-        'Apple Color Emoji', 
-        'Segoe UI Emoji', 
-        'Segoe UI Symbol', 
-        'Noto Color Emoji'
-      ],
-      'sans': [
-        'Inter', 
-        'ui-sans-serif', 
-        'system-ui', 
-        '-apple-system', 
-        'system-ui', 
-        'Segoe UI', 
-        'Roboto', 
-        'Helvetica Neue', 
-        'Arial', 
-        'Noto Sans', 
-        'sans-serif', 
-        'Apple Color Emoji', 
-        'Segoe UI Emoji', 
-        'Segoe UI Symbol', 
-        'Noto Color Emoji'
-      ]
-    }
   },
   plugins: [],
 }

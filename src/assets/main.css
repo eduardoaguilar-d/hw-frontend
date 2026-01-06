@@ -21,6 +21,14 @@
   --color-secondary: #9D7C51;
 }
 
+@import "flowbite/src/themes/default";
+
+/* Flowbite Plugin */
+@plugin "flowbite/plugin";
+
+/* Flowbite Source */
+@source "../node_modules/flowbite";
+
 /* Override base.css background to allow section backgrounds to show */
 html, body {
   margin: 0;
@@ -31,15 +39,3 @@ html, body {
 body {
   background: transparent !important;
 }
-
-@import "flowbite/src/themes/default";
-
-/* Flowbite Plugin */
-@plugin "flowbite/plugin";
-
-/* Flowbite Source */
-@source "../node_modules/flowbite";
-
-/* @import './base.css'; - Removed to rely on Tailwind/Flowbite and avoid conflicts */
-
-/* Removed default Vue layout constraints */
